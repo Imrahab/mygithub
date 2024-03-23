@@ -1,5 +1,5 @@
 # mygithub Mnist code
-from data import get_mnist
+#from data import get_mnist
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 #w = weights, b = bias, i = input, h = hidden, o = output, l = label
 #e.g. w_i_h = weights from input layer to hidden layer
 
-images, labels = get_mnist() #to get the images and labels
+#images, labels = get_mnist() #to get the images and labels
 w_i_h = np.random.uniform(-0.5, 0.5, (20, 784))
 w_h_o = np.random.uniform(-0.5, 0.5, (10, 20))
 b_i_h = np.zeros((20, 1))
